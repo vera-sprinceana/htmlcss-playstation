@@ -7,3 +7,18 @@
 .b_radius{
     border-radius: 15px;
 }
+.bord_er{
+    padding: 3px;
+    border: 2px solid rgba(60,147,217,255);
+    border-radius: 15px;
+}
+.section_text{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.f-color{
+    color: rgba(42,137,213,255);
+    text-transform: uppercase;
+}
