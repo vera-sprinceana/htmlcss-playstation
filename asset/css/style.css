@@ -12,7 +12,8 @@
     border: 2px solid rgba(60,147,217,255);
     border-radius: 15px;
 }
-.section_text{
+.section_text,
+.j_center{
     display:flex;
     flex-direction: column;
     justify-content: center;
@@ -21,4 +22,13 @@
 .f-color{
     color: rgba(42,137,213,255);
     text-transform: uppercase;
+}
+.img_play{
+    width: 400px;
+    height: 300px;
+}
+.fa-trademark{
+    font-size: 0.5em;
+    position: absolute;
+    top: 95;
 }
