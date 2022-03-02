@@ -1,8 +1,14 @@
-.text_card{
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
+#hero{
+    background-image: url(../img/jumbo-bg.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 70vh;
+}
+#it_takes_two{
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .b_radius{
     border-radius: 15px;
@@ -34,4 +40,7 @@
     top: 100;
     bottom: 1;
     margin: 5px;
+}
+.border_bottom_active{
+    border-bottom: 2px solid  rgba(42,137,213,255);;
 }
