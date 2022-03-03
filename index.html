@@ -16,6 +16,7 @@
     <div class="container-fluid d-flex justify-content-end bg-dark">
         <img class="py-2 px-2" style="width: 5%" src="./asset/img/sony_logo.svg" alt="">
     </div>
+    <header class="fixed-top  bg-white mt-4">
     <nav class="navbar navbar-expand-lg navbar-light fw-bold">
         <div class="container-fluid">
             <a class="navbar-brand" href="#"><img src="./asset/img/play_logo.svg" alt="logo playstation"> </a>
@@ -25,26 +26,75 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mb-2 mb-lg-0">
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Giochi
-                </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#"></a></li>
-                <li><a class="dropdown-item" href="#"></a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#"></a></li>
+                    <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                     Giochi
+                    </a>
+                <ul class="dropdown-menu">
+                    <li class="col_dropdown">
+                        <a class="dropdown-item " href="#">
+                            <img src="./asset/img/play-menu-ico.png" alt="playstation">
+                        </a>
+                    </li>
+                    <li class="col_dropdown">
+                        <a class="dropdown-item " href="#">
+                            <img src="./asset/img/play-menu-ico.png" alt="playstation">
+                        </a>
+                    </li>
+                    <li class="col_dropdown">
+                        <a class="dropdown-item" href="#">
+                            <img src="./asset/img/play-menu-ico.png" alt="playstation">
+                        </a>
+                    </li>
+                    <li>
+                        <hr class="dropdown-divider">
+                    </li>
+                    <li>
+                        <a class="dropdown-item" href="#">
+                            Link Supporto
+                        </a>
+                    </li>
+                    <li>
+                        <a class="dropdown-item" href="#">
+                            Link Supporto
+                        </a>
+                    </li>
+                    <li>
+                        <a class="dropdown-item" href="#">
+                            Link Supporto
+                        </a>
+                    </li>
                 </ul>
             </ul>
-            <ul class="navbar-nav mb-2 mb-lg-0 ">
+            <ul class="navbar-nav mb-2 mb-lg-0">
                 <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                     Hardware
                   </a>
-                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <li><a class="dropdown-item" href="#"></a></li>
-                    <li><a class="dropdown-item" href="#"></a></li>
-                    <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="#"></a></li>
+                  <ul class="dropdown-menu">
+                    <li>
+                        <a class="dropdown-item " href="#">
+                            <img src="./asset/img/play-menu-ico.png" alt="playstation"> 
+                        </a>
+                    </li>
+                    <li>
+                        <a class="dropdown-item " href="#">
+                            <img src="./asset/img/play-menu-ico.png" alt="playstation">
+                        </a>
+                    </li>
+                    <li>
+                        <a class="dropdown-item " href="#">
+                            <img src="./asset/img/play-menu-ico.png" alt="playstation">
+                        </a>
+                    </li>
+                    <li>
+                        <hr class="dropdown-divider">
+                    </li>
+                    <li>
+                        <a class="dropdown-item" href="#">Link Supporto</a>
+                    </li>
+                    <li>
+                        <a class="dropdown-item" href="#">Link Supporto</a>
+                    </li>
                   </ul>
                 </li>
             </ul>
@@ -92,10 +142,13 @@
                   <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                     Supporto
                   </a>
-                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#"></a></li>
                     <li><a class="dropdown-item" href="#"></a></li>
                     <li><a class="dropdown-item" href="#"></a></li>
                     <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#"></a></li>
+                    <li><a class="dropdown-item" href="#"></a></li>
                     <li><a class="dropdown-item" href="#"></a></li>
                   </ul>
                 </li>
@@ -123,7 +176,9 @@
         </div>
         <!--end navbar-->
     </nav>
-    <section id="hero" class="d-flex align-items-end pb-4">
+    </header>
+   
+    <section id="hero" class="d-flex align-items-end py-4 m_top">
           <!--ANCHOR start section hero-->
         <div class="container text-white">
             <div class="w-25">
@@ -134,27 +189,27 @@
             </div>
         </div>
     </section>
-    <section class="mt-4">
+    <section class="py-4">
         <!--ANCHOR start section card-->
         <div class="container">
             <div class="row">
                 <div class="col-6 col-md-4 col-lg-2 mb-3">
-                    <img class="b_radius bord_er" style="width: 100%" src="./asset/img/returnal-listing-thumb-01-ps5.jpg" alt="">
+                    <img class="b_radius bord_er img-fluid"  src="./asset/img/returnal-listing-thumb-01-ps5.jpg" alt="">
                 </div>
                 <div class="col-6 col-md-4 col-lg-2  mb-3">
-                    <img class="b_radius" style="width: 100%" src="./asset/img/ratchet-and-clank-rift-apart-keyart.jpg" alt="">
+                    <img class="b_radius img-fluid" src="./asset/img/ratchet-and-clank-rift-apart-keyart.jpg" alt="">
                 </div>
                 <div class="col-6 col-md-4 col-lg-2  mb-3">
-                    <img class="b_radius" style="width: 100%" src="./asset/img/returnal-listing-thumb-01-ps5.jpg" alt="">
+                    <img class="b_radius img-fluid"  src="./asset/img/returnal-listing-thumb-01-ps5.jpg" alt="">
                 </div>
                 <div class="col-6 col-md-4 col-lg-2  mb-3">
-                    <img class="b_radius" style="width: 100%" src="./asset/img/ratchet-and-clank-rift-apart-keyart.jpg" alt="">
+                    <img class="b_radius  img-fluid" src="./asset/img/ratchet-and-clank-rift-apart-keyart.jpg" alt="">
                 </div>
                 <div class="col-6 col-md-4 col-lg-2  mb-3">
-                    <img class="b_radius" style="width: 100%" src="./asset/img/returnal-listing-thumb-01-ps5.jpg" alt="">
+                    <img class="b_radius img-fluid"  src="./asset/img/returnal-listing-thumb-01-ps5.jpg" alt="">
                 </div>
                 <div class="col-6 col-md-4 col-lg-2  mb-3">
-                    <img class="b_radius" style="width: 100%" src="./asset/img/ratchet-and-clank-rift-apart-keyart.jpg" alt="">
+                    <img class="b_radius  img-fluid" src="./asset/img/ratchet-and-clank-rift-apart-keyart.jpg" alt="">
                 </div>
             </div>
         </div>
@@ -187,25 +242,25 @@
         </div>
         <div class="container_sm pt-3">
             <div class="row">
-                <div class="col-4 col-md-4 col-lg-2 border_bottom_active mb-3 mb-none mb-md-block">
-                    <img class="img-fluid" src="./asset/img/playstation-5-thumb.png" alt="console playstation 5">
-                    <div>Console PS5</div>
+                <div class="col-4 col-lg-2 border_bottom_active mb-3 mb-none mb-md-block">
+                    <img class="img-fluid opacity_50" src="./asset/img/playstation-5-thumb.png" alt="console playstation 5">
+                    <div class="text-center text_n d-sm-none d-md-block">Console PS5</div>
                 </div>
-                <div class="col-4 col-md-4 col-lg-2">
-                    <img class="img-fluid" src="./asset/img/joypad-thumb.png" alt="controller playstation">
-                    <div>Controller wireless DualSens <i class="fa-solid fa-trademark"></i></div>
+                <div class="col-4 col-lg-2 border_bottom">
+                    <img class="img-fluid opacity_50" src="./asset/img/joypad-thumb.png" alt="controller playstation">
+                    <div class="text-center text_n d-sm-none d-md-block">Controller wireless DualSense <i class="fa-solid fa-trademark"></i></div>
                 </div>
-                <div class="col-4 col-md-4 col-lg-2 mb-3 mb-none mb-md-block">
-                    <img class="img-fluid" src="./asset/img/headset-thumb.png" alt="cuffie wireless con microfono">
-                    <div>Cuffie wireless con microfono PULSE 3 <i class="fa-solid fa-trademark"></i></div>
+                <div class="col-4 col-lg-2 mb-3 mb-none mb-md-block border_bottom">
+                    <img class="img-fluid opacity_50" src="./asset/img/headset-thumb.png" alt="cuffie wireless con microfono">
+                    <div class="text-center text_n d-sm-none d-md-block">Cuffie wireless con microfono PULSE 3 <i class="fa-solid fa-trademark"></i></div>
                 </div>
-                <div class="col-4 col-md-4 col-lg-2 mb-3 mb-none mb-md-block">
-                    <img class="img-fluid" src="./asset/img/remote-thumb.png" alt="telecomando">
-                    <div>Telecomando Media</div>
+                <div class="col-4 col-lg-2 mb-3 mb-none mb-md-block border_bottom">
+                    <img class="img-fluid opacity_50" src="./asset/img/remote-thumb.png" alt="telecomando">
+                    <div class="text-center text_n d-sm-none d-md-block">Telecomando Media</div>
                 </div>
-                <div class="col-4 col-md-4 col-lg-2 mb-3 mb-none mb-md-block">
-                    <img class="img-fluid" src="./asset/img/camera-thumb.jpg" alt="telecamera hd">
-                    <div>Telecamera HD</div>
+                <div class="col-4 col-lg-2 mb-3 mb-none mb-md-block border_bottom">
+                    <img class="img-fluid opacity_50" src="./asset/img/camera-thumb.jpg" alt="telecamera hd">
+                    <div class="text-center text_n d-sm-none d-md-block">Telecamera HD</div>
                 </div>
             </div>
         </div>
@@ -499,3 +554,5 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
+
+
