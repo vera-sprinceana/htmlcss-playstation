@@ -8,6 +8,7 @@
 #it_takes_two{
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
     background-repeat: no-repeat;
+    background-position: center center;
     background-size: cover;
 }
 .b_radius{
@@ -57,6 +58,25 @@
     width: 60%;
     
 }
-.bg_blue{
+.bg_dark_blue{
     background-color: rgba(22,28,59,255);
+}
+.bg_blue{
+    background-color: rgba(0,67,156,255);
+}
+.footer_list{
+    list-style-type: none;
+}
+.logo_sony{
+    width: 30%;
+}
+.text_width{
+    width:67%;
+}
+.container_sm{
+    width: 80%;
+    margin: 0 auto;
+}
+.img_social{
+    width: 150px;
 }
